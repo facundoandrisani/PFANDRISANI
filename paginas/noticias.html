@@ -5,75 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noticias</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../favicon.ico">
 </head>
 <body>
-    <header class="barracompleta">
-        <div class="centrado">
-            <a href="../index.html">
-                <img src="../src/rosario-central-logo-escudo.png" alt="Rosario Central Logo" width="50px">
-            </a>
-            <h1>Sitio NO Oficial Rosario Central</h1>
-        </div>
-        <nav>
-            <ul class="menu">
-                <a href="../index.html">INICIO</a>
-                <a href="./plantel.html">PLANTEL</a>
-                <a href="./socios.html">SOCIOS</a>
-                <a href="./tienda.html">TIENDA</a>
-                <a href="#">NOTICIAS</a>
-                <a href="./elclub.html">EL CLUB</a>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="../src/rosario-central-logo-escudo2.png" alt="logo Rosario Central" width="60" height="60"> 
+                  </div>
+                </div>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/plantel.html">Plantel</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/socios.html">Socios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/elclub.html">El Club</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
         </nav>
-    </header> 
+    </header>
     <main>
         <!-- Aca va a ir la presentacion de las noticias -->
         <h2 class="centrado"> Noticias </h2>    
-        <div class="relleno">
-            <section>
-                <article class="noticiacaja">                   
-                        <img src="https://picsum.photos/1000/200?random=15" alt="Noticia1" width="100%">
-                        <div>
-                            <h3> Noticia 1</h3>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolores rerum soluta, quo nemo reiciendis commodi iure quam officiis magnam accusamus in veritatis sequi
-                            consequatur ipsam, dolorum explicabo. Aspernatur, repudiandae?</p>
-                            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil excepturi eligendi dolore tenetur fugiat officia magnam recusandae, a, hic, nobis eaque at facilis. Aliquam, expedita eveniet laboriosam quaerat dolorem totam.</p>
-                            <a href="">Leer mas</a>
-                        </div>
-                </article>
-            </section>
-            <section>
-                <article class="noticiacaja">
-                        <img src="https://picsum.photos/1000/200?random=22" alt="Noticia2" width="100%">
-                        <h3> Noticia 2</h3>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolores rerum soluta, quo nemo reiciendis commodi iure quam officiis magnam accusamus in veritatis sequi consequatur ipsam, dolorum explicabo. Aspernatur, repudiandae?</p>
-                        <a href="">Leer mas</a>
-                </article>
-            </section>
-            <section>
-                <article class="noticiacaja">
-                        <img src="https://picsum.photos/1000/200?random=36" alt="Noticia3" width="100%">
-                        <h3> Noticia 3</h3>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolores rerum soluta, quo nemo reiciendis commodi iure quam officiis magnam accusamus in veritatis sequi consequatur ipsam, dolorum explicabo. Aspernatur, repudiandae?</p>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ut atque earum nostrum modi, enim amet reprehenderit in dolor possimus laboriosam saepe minima? Laudantium, id nobis ex tenetur dolores maxime!</p>
-                        <a href="">Leer mas</a> 
-                </article>    
-            </section>     
+        <section class="container r">
+              <article>
+                <div class="card mb-3 noticiasfoto">
+                  <img src="../src/noticia1.jpg" class="card-img-top" alt="Reserva Central">
+                  <div class="card-body fondonoticias">
+                    <h4 class="card-title centrado">Reserva: Igualdad en Saavedra</h4>
+                    <p class="card-text">Este jueves por la mañana los conjuntos de Reserva de Central y Platense igualaron 2 a 2 por la fecha 21 del Torneo en el predio Alejandro Mariani Dolan ubicado en Saavdra. En el primer tiempo abrió la cuenta Luciano Ferreyra para el Canalla y el mismo Pupi, de penal estiró la cuenta, ya en el segundo tiempo, Luján descontó para el conjunto Calamar y Toledo Pacheco puso el empate definitivo.</p>
+                    <p class="card-text"><small class="text-muted">22 de septiembre de 2022</small></p>
+                  </div>
+                </div>
+                <div class="card mb-3">
+                  <img src="../src/noticia2.jpg" class="card-img-top" alt="Reserva Central">
+                  <div class="card-body fondonoticias">
+                    <h4 class="card-title centrado">Reserva: Visitará a Platense en busca de otro triunfo</h4>
+                    <p class="card-text">Por la 21° fecha del Torneo de la Liga, la Reserva Canalla visitará a Platense, este jueves desde las 10 hs. El encuentro será dirigido por Gabriel Gutiérrez, y podrás verlo en el Canal Oficial de Youtube del Club y en los canales ESPN Y TNT Sports. </p>
+                    <p class="card-text"><small class="text-muted">21 de septiembre de 2022</small></p>
+                  </div>
+                </div>
+                <div class="card mb-3">
+                  <img src="../src/rosario-central-logo-escudo2.png" class="card-img-top" alt="Comunicado">
+                  <div class="card-body fondonoticias">
+                    <h4 class="card-title centrado">Comunicado</h4>
+                    <p class="card-text">El Club Atlético Rosario Central comunica e informa a los socios y las socias, que la Institución comenzará, en los próximos días, a realizar un reempadronamiento total de los más de 65.000 socios y socias activos al día de la fecha.</p>
+                    <p class="card-text"><small class="text-muted">21 de septiembre de 2022</small></p>
+                  </div>
+                </div>
+              </article>
+        </section>     
         </div>                    
     </main>
-    <div class="final">
-        <aside>
-            <img src="../src/Umbro.png" alt="Umbro" width="100px">
-            <img src="../src/logocitycenteronline.png" alt="City Center Online" width="100px">
-        </aside>
-        <footer>
-                <h4>¡Seguinos en nuestras redes!</h4>
-                <a href="https://www.instagram.com/rosariocentral" target="_blank">Instagram</a>
-                <a href="https://es-la.facebook.com/RosarioCentral" target="_blank">Facebook</a>
-                <a href="https://www.youtube.com/channel/UCRIiYwaYzI_8cvzkjdScK_Q" target="_blank">Youtube</a>
-                <a href="https://twitter.com/RosarioCentral" target="_blank">Twitter</a>
-        </footer>
-    </div>  
+    <aside>
+        <img src="../src/Umbro.png " alt="Umbro">
+        <img src="../src/logocitycenteronline.png" alt="City Center Online">
+    </aside>
+    <footer class="centrado">
+        <h4>¡Seguinos en nuestras redes!</h4>
+        <div class="redes">
+            <a href="https://www.instagram.com/rosariocentral" target="_blank"><iconify-icon icon="akar-icons:instagram-fill" width="30" height="30"></iconify-icon></a>
+            <a href="https://es-la.facebook.com/RosarioCentral" target="_blank"> <iconify-icon icon="akar-icons:facebook-fill" width="30" height="30"></iconify-icon></a>
+            <a href="https://www.youtube.com/channel/UCRIiYwaYzI_8cvzkjdScK_Q" target="_blank"><iconify-icon icon="akar-icons:youtube-fill" width="30" height="30"></iconify-icon></a>
+            <a href="https://twitter.com/RosarioCentral" target="_blank"><iconify-icon icon="akar-icons:twitter-fill" width="30" height="30"></iconify-icon></a>
+        </div>
+    </footer>
+<script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+<script src="../../../clasebootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

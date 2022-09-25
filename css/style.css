@@ -1,0 +1,362 @@
+/* Para todo */
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Slabo 27px', serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+h2, h3, h4{
+    color: rgb(29, 59, 106);
+    padding: 10px;
+}
+
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*.menu li {
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.menu {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.relleno{
+    padding: 5px;
+    margin: 5px;
+}
+
+.final{
+    background-color: rgba(249, 223, 52, 0.900);
+    text-align: center;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+}
+*/
+
+/* Para todo */
+
+/**/
+
+/* tamaño escritorio */
+/*.contenedor {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-areas:
+    "header"
+    "nav"
+    "inicio"
+    "resultados"
+    "partidos"
+    "aside"
+    "footer" ;
+      
+       grid-template-rows: 0.5fr 2fr 1fr 0.5fr; 
+       grid-template-columns: 20% auto 15%;
+    grid-template-rows: auto auto 100vh 100vh 100vh auto auto;
+       row-gap: 10px;
+       gap:10px;
+       column-gap: 15px;
+*/
+header {
+    /*grid-area: header;*/
+    background-color: rgb(29, 59, 106, 0.900);
+}
+
+nav {
+    background-color: rgb(249, 223, 52, 0.900);
+}
+
+section#inicio{
+    grid-area: inicio;
+    height: 100vh;
+}
+
+section#resultados {
+    grid-area: resultados;     
+}
+
+section#partidos {
+    grid-area: partidos;     
+}
+
+aside {
+    grid-area: aside;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: rgb(29, 59, 106, 0.900);
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(249, 223, 52, 0.900);
+    font-size: 24px;
+}
+
+
+aside img{
+    width: 100px;
+}
+
+footer a{
+    color: #173b6a;
+}
+
+footer a:hover{
+    color: white;
+}
+
+.borderbottom {
+   border-bottom: 10px solid white;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.redes{
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.wrap{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background: linear-gradient(90deg,#173b6a9c 0%, #f9df3493 80%), url("../src/hinchada.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+
+.wrap-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+    width: 50%;   
+}
+
+section#resultados{   
+    background: radial-gradient(circle farthest-corner at center center,rgba(0, 0, 0, 0.897),rgba(0, 0, 0, 0.842)), url("../src/buonanottevspatronato.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro{
+    height: 55%;
+    width: 60%;
+    background-color: white;
+    border: 0.5rem solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cuadro h3{
+    padding-bottom: 5%;
+}
+
+.equipos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.equipos span{
+    font-size: 5vw;
+    font-weight: 900;  
+}
+
+/* tamaño celular */
+
+/* @media screen and (max-width: 768px) {
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-areas:
+    "header"
+    "inicio"
+    "resultados"
+    "partidos"
+    "aside"
+    "footer" ;
+
+grid-template-rows: auto 100vh 100vh 100vh auto auto;
+}
+
+nav{
+    display: none;
+}
+
+aside img{
+    width: 70px;
+}
+
+.equipos img{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 60px;
+}
+
+}
+*/
+
+/**/
+
+/* Noticias */
+
+/*.noticiacaja{
+    width: 90%;
+    background-color: rgb(71, 72, 77);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    color: antiquewhite;
+}
+
+.noticiacaja h3, a{
+    color: black;
+}
+
+*/
+
+/* Noticias */
+
+.fondonoticias{
+    background-color: #83838390;
+}
+
+/* Socios */
+
+#valores {
+    color: rgb(29, 59, 106);
+}
+
+.tablasocios, td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.asociateonline h3{
+    text-align: center;
+}
+
+/* Socios */
+
+/* Tienda */
+
+.contenedor{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.carta{
+    width: 330px;
+    height: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Tienda */
+
+/* El Club */
+
+.ubicacion{
+    text-align: center;
+    position: relative;
+    left: 30%;
+    bottom: 30%;
+}
+
+/* El Club */
+
+/* Jugadores */
+
+.container2{
+    background-color:rgb(33, 47, 60 );
+    color: white;
+    display:flex;
+    height: 80vh;
+    flex-wrap: wrap;
+}
+.container__hijo1{
+    height:80vh;
+    width: 50%;
+    border-bottom: 10px solid rgba(249, 223, 52, 0.900);
+    background-image:url(../Final/src/broun.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:flex;  
+}
+
+.container__hijo2{
+    width:50%;
+    height: 80vh;
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 10px solid  rgba(29, 59, 106, 0.900);
+    flex-wrap: wrap;
+}
+
+.container__hijo2 h2{
+    color: white;
+    font-size: 2rem;
+    line-height: 0.5;
+    margin-bottom: 1.5rem;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+/* .container__hijo2 img{
+    width: 150px;
+    margin-left: 40%;
+}
+*/
+
+.container__hijo2 h6{
+    color: rgba(249, 223, 52, 0.776);
+    font-size: 1.5rem;
+    line-height: 0.5;
+    margin-bottom: 0.5rem;
+    margin-top: 0.7rem;
+    padding: 0.5rem;
+}
+
+/* Jugadores */
