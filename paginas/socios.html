@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socios</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+</head>
+<body>
+    <header class="barracompleta">
+        <div class="centrado">
+            <a href="../index.html">
+                <img src="../src/rosario-central-logo-escudo.png" alt="Rosario Central Logo" width="50px">
+            </a>
+            <h1>Sitio NO Oficial Rosario Central</h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <a href="../index.html">INICIO</a>
+                <a href="./plantel.html">PLANTEL</a>
+                <a href="#">SOCIOS</a>
+                <a href="./tienda.html">TIENDA</a>
+                <a href="./noticias.html">NOTICIAS</a>
+                <a href="./elclub.html">EL CLUB</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="relleno">
+            <!-- Aca va a ir la informacion para los que se quieran asociar -->
+            <h2 class="centrado">Asociate</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusamus ullam ut molestiae repellat assumenda id, officiis, possimus iusto necessitatibus ipsum recusandae illo facilis. Nobis architecto officia provident ut deleniti?</p>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima alias amet velit pariatur nisi vitae illum, nesciunt maxime modi repellendus quas dolor est, eos saepe. Explicabo tempore consectetur debitis est.</p>
+            <table class="tablasocios">
+                <!--TITULO DE LA TABLA-->
+                <caption id="valores">VALORES</caption>
+                <!--seleccionar columnas-->
+                <colgroup>
+                    <!--aca vamos a decir que la columna ocupe las 5 columnas-->
+                    <col span = 5> 
+                </colgroup>
+                <!--CABECERA DE LA TABLA-->
+                <thead>
+                    <!--EL NUMERO DE CELDAS DENTRO DE UN TR ESTABLECE LAS COLUMNAS-->
+                    <tr>
+                        <th>
+                            Categoria
+                        </th>
+                        <th>
+                            Edad
+                        </th>
+                        <th>
+                            Valor mensual cuota
+                        </th>
+                        <th>
+                            Carnet
+                        </th>
+                        <th>
+                            Pago Anual
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>  
+                        <td> Activo Pleno </td>
+                        <td> 00 </td>
+                        <td> $$$ </td>
+                        <td> $$$ </td>
+                        <td> $$$ </td>
+                    </tr>
+                    <tr>  
+                        <td> Cad </td>
+                        <td> 00 </td>
+                        <td> $$$ </td>
+                        <td> $$$ </td>
+                        <td> $$$ </td>
+                    </tr>
+                    <tr>  
+                        <td> Cad() </td>
+                        <td> 00 </td>
+                        <td> $$$ </td>
+                        <td> $$$ </td>
+                        <td> $$$ </td>
+                    </tr>
+                    <tr>  
+                        <td> Men </td>
+                        <td> 00 </td>
+                        <td> $$$ </td>
+                        <td> $$$ </td>
+                        <td> $$$ </td>
+                    </tr>
+                    <tr>  
+                        <td> Men() </td>
+                        <td> 00 </td>
+                        <td> $$$ </td>
+                        <td> $$$ </td>
+                        <td> $$$ </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5"> ACTIVO </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore inventore eveniet sapiente recusandae, voluptas fuga voluptate nisi corrupti, porro nesciunt accusantium laborum repudiandae. Explicabo quam laboriosam rem, quis dignissimos facilis?</p>
+        </section>
+        <section class="asociateonline relleno">
+            <fieldset>
+                <h3>Asociate Online</h3>
+                <form action="">
+                    <div>
+                    <!--<label for="">Ingrese su Nombre</label> --> 
+                        <input type="text" placeholder="Nombre" required >
+                    </div>
+                    <div>
+                        <!--<label for="">Ingrese su Apellido</label> --> 
+                        <input type="text" placeholder="Apellido" required >
+                    </div> 
+                    <div>
+                        <label for="">Fecha de nacimiento</label> 
+                        <input type="date" placeholder="Nacimiento" required>
+                    </div>     
+                    <div>
+                    <!--<label for="">Ingrese su Email</label> --> 
+                        <input type="email" placeholder="Email" required>
+                    </div>             
+                    <div>
+                    <!-- <label for="">Ingrese su Celular</label>--> 
+                        <input type="number" placeholder="Celular" required>
+                    </div>
+                    <div>
+                        <!--<label for="">Tipo de documentación y numero</label> -->
+                        <select>
+                            <option value="D">DNI</option>
+                            <option value="P">PAS</option>
+                            <option value="C">C.I</option>
+                            <option value="LC">L.C</option>
+                            <option value="LE">L.E</option>
+                        </select>
+                        <input type="number" placeholder="Documentación" required>
+                    </div>
+                    <div>
+                            <label for="">Subir foto de su documentacion</label>
+                            <input type="file" placeholder="Subir foto documentacion" required>
+                    </div>
+                    <div>
+                        <label for="">Tipo de socio</label> 
+                        <select>
+                            <option value="A">ACTIVO</option>
+                            <option value="B">OPCION B</option>
+                            <option value="C">OPCION C</option>
+                            <option value="D">OPCION D</option>
+                            <option value="E">OPCION E</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Tipo de tarjeta</label> 
+                        <select>
+                            <option value="A">VISA</option>
+                            <option value="B">OPCION B</option>
+                            <option value="C">OPCION C</option>
+                            <option value="D">OPCION D</option>
+                            <option value="E">OPCION E</option>
+                        </select>
+                    </div>
+                        <div>
+                            <!-- <label for="">Ingrese su Numero de Tarjeta</label>--> 
+                                <input type="number" placeholder="Numero de la Tarjeta" required>
+                        </div>
+                        <div>
+                            <!-- <label for="">Ingrese su Pais de Residencia</label>--> 
+                                <input type="text" placeholder="Pais de residencia" required>
+                        </div>
+                        <div>
+                            <!-- <label for="">Ingrese su Estado/Provincia</label>--> 
+                                <input type="text" placeholder="Estado/Provincia" required>
+                        </div>
+                        <div>
+                            <!-- <label for="">Ingrese su Localidad y Codigo Postal</label>--> 
+                                <input type="text" placeholder="Localidad" required>
+                                <input type="number" placeholder="Codigo Postal" required>
+                        </div>
+                        <div>
+                            <!-- <label for="">Ingrese su Calle, Numero y Piso</label>--> 
+                                <input type="text" placeholder="Calle" required>
+                                <input type="number" placeholder="Numero de Calle" required>
+                                <input type="number" placeholder="Piso">
+                        </div>
+                        <div>
+                            <label for="">Subir Foto Carnet</label>
+                            <input type="file" placeholder="Subir Foto Carnet" required>
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar Formulario">
+                            <input type="reset" value="Borrar Formulario">
+                        </div>
+                    </div>
+                </form>
+            </fieldset>      
+        </section>
+        <section class="relleno">
+            <!-- Aca va a ir la informacion para los socios -->
+            <h3 class="centrado">Soy Socio</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quidem aliquam possimus, commodi pariatur exercitationem repellat eaque voluptate dolorem sint harum veritatis nulla atque iusto fugit reprehenderit nemo cupiditate unde?</p>
+            <h4>Vas a poder disfutar de:</h4>
+            <ul>
+                <li>Entrada gratuita al estadio</li>
+                <li>Entrada al Caribe Canalla</li>
+                <li>Multiples Ofertas en la Tienda la Tienda Oficial</li>
+                <li>Estacionamiento gratuito</li>
+            </ul> 
+            <img src="https://picsum.photos/1000/200?random=33" alt="Socios disfrutando los predios" width="100%">
+        </section>
+    </main>
+    <div class="final">
+        <aside>
+            <img src="../src/Umbro.png" alt="Umbro" width="100px">
+            <img src="../src/logocitycenteronline.png" alt="City Center Online" width="100px">
+        </aside>
+        <footer>
+                <h4>¡Seguinos en nuestras redes!</h4>
+                <a href="https://www.instagram.com/rosariocentral" target="_blank">Instagram</a>
+                <a href="https://es-la.facebook.com/RosarioCentral" target="_blank">Facebook</a>
+                <a href="https://www.youtube.com/channel/UCRIiYwaYzI_8cvzkjdScK_Q" target="_blank">Youtube</a>
+                <a href="https://twitter.com/RosarioCentral" target="_blank">Twitter</a>
+        </footer>
+    </div>
+</body>
+</html>
