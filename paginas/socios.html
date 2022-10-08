@@ -48,183 +48,215 @@
             </div>
           </nav>
     </header>
-    <main>
-        <section class="relleno">
+    <main class="container-fluid">
+        <section class="row">
             <!-- Aca va a ir la informacion para los que se quieran asociar -->
-            <h2 class="centrado">Asociate</h2>
+            <h2 class="centrado colorgris">Asociate</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusamus ullam ut molestiae repellat assumenda id, officiis, possimus iusto necessitatibus ipsum recusandae illo facilis. Nobis architecto officia provident ut deleniti?</p>
             <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima alias amet velit pariatur nisi vitae illum, nesciunt maxime modi repellendus quas dolor est, eos saepe. Explicabo tempore consectetur debitis est.</p>
-            <table class="tablasocios">
-                <!--TITULO DE LA TABLA-->
-                <caption id="valores">VALORES</caption>
-                <!--seleccionar columnas-->
-                <colgroup>
-                    <!--aca vamos a decir que la columna ocupe las 5 columnas-->
-                    <col span = 5> 
-                </colgroup>
-                <!--CABECERA DE LA TABLA-->
-                <thead>
-                    <!--EL NUMERO DE CELDAS DENTRO DE UN TR ESTABLECE LAS COLUMNAS-->
-                    <tr>
-                        <th>
-                            Categoria
-                        </th>
-                        <th>
-                            Edad
-                        </th>
-                        <th>
-                            Valor mensual cuota
-                        </th>
-                        <th>
-                            Carnet
-                        </th>
-                        <th>
-                            Pago Anual
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>  
-                        <td> Activo Pleno </td>
-                        <td> 00 </td>
-                        <td> $$$ </td>
-                        <td> $$$ </td>
-                        <td> $$$ </td>
-                    </tr>
-                    <tr>  
-                        <td> Cad </td>
-                        <td> 00 </td>
-                        <td> $$$ </td>
-                        <td> $$$ </td>
-                        <td> $$$ </td>
-                    </tr>
-                    <tr>  
-                        <td> Cad() </td>
-                        <td> 00 </td>
-                        <td> $$$ </td>
-                        <td> $$$ </td>
-                        <td> $$$ </td>
-                    </tr>
-                    <tr>  
-                        <td> Men </td>
-                        <td> 00 </td>
-                        <td> $$$ </td>
-                        <td> $$$ </td>
-                        <td> $$$ </td>
-                    </tr>
-                    <tr>  
-                        <td> Men() </td>
-                        <td> 00 </td>
-                        <td> $$$ </td>
-                        <td> $$$ </td>
-                        <td> $$$ </td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="5"> ACTIVO </td>
-                    </tr>
-                </tfoot>
-            </table>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore inventore eveniet sapiente recusandae, voluptas fuga voluptate nisi corrupti, porro nesciunt accusantium laborum repudiandae. Explicabo quam laboriosam rem, quis dignissimos facilis?</p>
         </section>
-        <section class="asociateonline relleno">
-            <fieldset>
-                <h3>Asociate Online</h3>
-                <form action="">
-                    <div>
-                    <!--<label for="">Ingrese su Nombre</label> --> 
-                        <input type="text" placeholder="Nombre" required >
-                    </div>
-                    <div>
-                        <!--<label for="">Ingrese su Apellido</label> --> 
-                        <input type="text" placeholder="Apellido" required >
-                    </div> 
-                    <div>
-                        <label for="">Fecha de nacimiento</label> 
-                        <input type="date" placeholder="Nacimiento" required>
-                    </div>     
-                    <div>
-                    <!--<label for="">Ingrese su Email</label> --> 
-                        <input type="email" placeholder="Email" required>
-                    </div>             
-                    <div>
-                    <!-- <label for="">Ingrese su Celular</label>--> 
-                        <input type="number" placeholder="Celular" required>
-                    </div>
-                    <div>
-                        <!--<label for="">Tipo de documentación y numero</label> -->
-                        <select>
-                            <option value="D">DNI</option>
-                            <option value="P">PAS</option>
-                            <option value="C">C.I</option>
-                            <option value="LC">L.C</option>
-                            <option value="LE">L.E</option>
-                        </select>
-                        <input type="number" placeholder="Documentación" required>
-                    </div>
-                    <div>
-                            <label for="">Subir foto de su documentacion</label>
-                            <input type="file" placeholder="Subir foto documentacion" required>
-                    </div>
-                    <div>
-                        <label for="">Tipo de socio</label> 
-                        <select>
-                            <option value="A">ACTIVO</option>
-                            <option value="B">OPCION B</option>
-                            <option value="C">OPCION C</option>
-                            <option value="D">OPCION D</option>
-                            <option value="E">OPCION E</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="">Tipo de tarjeta</label> 
-                        <select>
-                            <option value="A">VISA</option>
-                            <option value="B">OPCION B</option>
-                            <option value="C">OPCION C</option>
-                            <option value="D">OPCION D</option>
-                            <option value="E">OPCION E</option>
-                        </select>
-                    </div>
-                        <div>
-                            <!-- <label for="">Ingrese su Numero de Tarjeta</label>--> 
-                                <input type="number" placeholder="Numero de la Tarjeta" required>
-                        </div>
-                        <div>
-                            <!-- <label for="">Ingrese su Pais de Residencia</label>--> 
-                                <input type="text" placeholder="Pais de residencia" required>
-                        </div>
-                        <div>
-                            <!-- <label for="">Ingrese su Estado/Provincia</label>--> 
-                                <input type="text" placeholder="Estado/Provincia" required>
-                        </div>
-                        <div>
-                            <!-- <label for="">Ingrese su Localidad y Codigo Postal</label>--> 
-                                <input type="text" placeholder="Localidad" required>
-                                <input type="number" placeholder="Codigo Postal" required>
-                        </div>
-                        <div>
-                            <!-- <label for="">Ingrese su Calle, Numero y Piso</label>--> 
-                                <input type="text" placeholder="Calle" required>
-                                <input type="number" placeholder="Numero de Calle" required>
-                                <input type="number" placeholder="Piso">
-                        </div>
-                        <div>
-                            <label for="">Subir Foto Carnet</label>
-                            <input type="file" placeholder="Subir Foto Carnet" required>
-                        </div>
-                        <div>
-                            <input type="submit" value="Enviar Formulario">
-                            <input type="reset" value="Borrar Formulario">
-                        </div>
-                    </div>
-                </form>
-            </fieldset>      
+        <section class="container text-center">
+            <div class="row">
+                <table class="col-4 table table-striped-columns">
+                    <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Larry the Bird</td>
+                        <td>Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table class="col-4 table table-striped-columns">
+                    <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table class="col table table-striped-columns ">
+                    <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
-        <section class="relleno">
+        <section class="row">
+            <h2 class="centrado colorgris">Asociate Online</h2>
+        </section>
+        <section class="container">
+            <form class="row border">
+                <!--<label for="">Ingrese su Nombre</label> -->
+                <div class="col-lg-4 position-relative mb-2">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input class="form-control form-control-sm" type="text" required>
+                </div>
+                <!--<label for="">Ingrese su Apellido</label> --> 
+                <div class="col-lg-4 position-relative mb-2">
+                    <label for="nombre" class="form-label">Apellido</label>
+                    <input class="form-control form-control-sm" type="text" required>
+                </div>
+                <div class="col-lg-7">
+                <!--<label for="">Nacimiento</label> --> 
+                    <label for="form-date" class="form-label">Fecha de nacimiento</label>
+                    <input type="date" class="form-date" required>
+                </div>    
+                <div class="col-lg-7 mb-2">
+                <!--<label for="">Ingrese su Email</label> --> 
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                </div>
+                <div class="col-lg-9 mb-2">
+                <!-- <label for="">Ingrese su Celular</label>-->
+                    <label for="form-number" class="form-label">Numero de celular</label>
+                    <input type="number" class="form-number" required>
+                </div>
+                <div class="d-flex flex-column input-group mb-2">
+                <!--<label for="">Tipo de documentación y numero</label> -->
+                    <label for="tipo-de-documento" class="form-label">Tipo de documentación</label>
+                    <div>
+                        <select class="form-select" id="inputGroupSelect01">
+                            <option value="1">DNI</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <input type="number" class="form-control" required>
+                    </div>
+                </div>
+                <div class="col-lg-7 mb-2">
+                    <label for="formFileSm" class="form-label">Subir foto documentacion</label>
+                    <input class="form-control form-control-sm" id="formFileSm" type="file" required>
+                </div>
+                <div class="col-lg-12 position-relative mb-2">
+                <!-- <label for="">Tipo de socio</label>--> 
+                    <label for="socio" class="form-label">Tipo de socio</label>
+                    <select class="form-select" id="tipodesocio" required>
+                      <option selected value="1">Activo</option>
+                      <option value="2">Ejemplo</option>
+                      <option value="3">Ejemplo</option>
+                      <option value="4">Ejemplo</option>
+                    </select>  
+                </div>
+                <div class="d-flex flex-column input-group mb-2">
+                <!-- <label for="">Ingrese su Numero de Tarjeta</label>--> 
+                    <label for="tipo-de-tarjeta" class="form-label">Tipo de tarjeta</label>
+                    <div>
+                        <select class="form-select" id="tarjeta">
+                            <option value="1">VISA</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <input type="number" class="form-control" required>
+                    </div>
+                </div>
+                <!-- <label for="">Ingrese su Pais, Localidad y Codigo Postal</label>-->   
+                <div class="col-lg-7 mb-2">
+                    <label for="countru" class="form-label">Pais</label>
+                    <input type="text" class="form-control" id="pais" required>
+                </div>
+                <div class="col-lg-6 position-relative mb-2 ">
+                    <label for="city" class="form-label">Localidad</label>
+                    <input type="text" class="form-control" id="localidad" required>
+                </div>
+                <div class="col-lg-3 position-relative mb-2">
+                    <label for="state" class="form-label">Estado</label>
+                    <select class="form-select" id="estado" required>
+                      <option selected disabled value="">Seleccionar</option>
+                      <option value="1">Ejemplo</option>
+                      <option value="2">Ejemplo</option>
+                    </select>  
+                </div>
+                <div class="col-lg-3 position-relative mb-2">
+                    <label for="postalcode" class="form-label">Codigo postal</label>
+                    <input type="text" class="form-control" id="codigopostal" required>
+                </div>
+                <div class="col-lg-6 mb-2">
+                <!-- <label for="">Ingrese su Calle, Numero y Piso</label>--> 
+                    <label for="direccion" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="direccion" placeholder="Avellaneda 1234" required>
+                </div>
+                <div class="col-lg-7 mb-2">
+                <!-- <label for="">Foto carnet</label>--> 
+                    <label for="fotocarnet" class="form-label">Subir foto Carnet</label>
+                    <input class="form-control form-control-sm" id="formFileSm" type="file" required>
+                </div>   
+                <div class="col-12 mb-2 form-check">
+                <!-- <label for="">Terminos y condiciones + enviar </label>--> 
+                  <input type="checkbox" class="form-check-input" id="terminos" required>
+                  <label class="form-check-label" for="terminos">Leí y acepto los terminos y condiciones</label>
+                </div>
+                <button type="submit" class="text-center btn btn-primary mb-2" required>Enviar</button>
+            </form>
+        </section>       
+        <section class="row">
             <!-- Aca va a ir la informacion para los socios -->
-            <h3 class="centrado">Soy Socio</h3>
+            <h2 class="centrado colorgris">Soy Socio</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quidem aliquam possimus, commodi pariatur exercitationem repellat eaque voluptate dolorem sint harum veritatis nulla atque iusto fugit reprehenderit nemo cupiditate unde?</p>
             <h4>Vas a poder disfutar de:</h4>
             <ul>
