@@ -1,0 +1,3 @@
+# Ignorae la carpeta node_modules y .json
+node_modules
+*.json
