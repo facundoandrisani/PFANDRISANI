@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido al Sitio No Oficial de Rosario Central">
+    <meta name="keywords"  content="ROSARIO CENTRAL, ROSARIO, DEPORTES, FUTBOL, INICIO, RESULTADO DEPORTIVO">
     <title>Inicio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
@@ -48,14 +50,16 @@
                 </div>
               </nav>
         </header>
-        <main>
-            <section id="inicio" class="wrap borderbottom">
+        <main class="container-fluid">
+            <section id="inicio" class="row wrap">
                 <div class="wrap-texto">
                     <h2 class="animate__animated animate__lightSpeedInRight">Bienvenido al Sitio NO Oficial del Club Atletico Rosario Central</h2>
                 </div>
             </section>
-            <h2 class="container centrado">Ultimo partido</h2>
-            <section id="resultados" class="borderbottom ">
+            <section class="row centrado">
+              <h2 class="colorgris">Ultimo partido</h2>
+            </section>
+            <section id="resultados" class="row">
                 <div class="cuadro">
                     <h3><img src="./src/Logo_Liga_Profesional_de_Fútbol_(Argentina).png" alt="Competicion" width="20%"></h3>
                     <ul class="equipos">
@@ -67,9 +71,11 @@
                     </ul>
                 </div>
             </section>
-            <h2 class="container centrado">Proximos partidos</h2>
-            <section id="partidos" class="container card-group centrado alineadocelu borderbottom">
-                <div class="card" style="width: 18rem;">
+            <section class="row centrado">
+              <h2 class="centrado colorgris">Proximos partidos</h2>
+            </section>
+            <section id="partidos" class="row card-group centrado justify-content-center borderbottom">
+                <div class="d-flex flex-column col-lg-4 card" style="width: 18rem;">
                     <img src="./src/platense.png" class="card-img-top" alt="Platense">
                     <div class="card-body">
                       <p class="card-text">VS PLATENSE</p>
@@ -80,7 +86,7 @@
                         <li class="list-group-item">LOCAL</li>
                     </ul>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="d-flex flex-column align-items-center col-lg-4 card" style="width: 18rem;">
                     <img src="./src/racing.png" class="card-img-top" alt="Racing">
                     <div class="card-body">
                       <p class="card-text">VS RACING</p>
@@ -91,7 +97,7 @@
                         <li class="list-group-item">VISITANTE</li>
                     </ul>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="d-flex flex-column align-items-center col-lg-4 card" style="width: 18rem;">
                     <img src="./src/union.png" class="card-img-top" alt="Union">
                     <div class="card-body">
                       <p class="card-text">VS UNION DE SANTA FE</p>
