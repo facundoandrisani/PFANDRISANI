@@ -5,8 +5,7 @@
   margin: 0px;
   padding: 0px;
   font-family: 'Slabo 27px', serif;
-  font-size: large; 
-}
+  font-size: large; }
 
 body {
   background-color: white;
@@ -15,9 +14,6 @@ body {
 h2, h3, h4 {
   color: #1d3b6a;
   padding: 10px; }
-
-nav a:hover {
-  text-decoration: underline; }
 
 .colorgris {
   background-color: #f7f9f9; }
@@ -29,8 +25,10 @@ nav a:hover {
   background-color: rgba(249, 223, 52, 0.5); }
 
 header {
-  /*grid-area: header;*/
   background-color: rgba(29, 59, 106, 0.9); }
+
+nav a:hover {
+  text-decoration: underline; }
 
 aside {
   grid-area: aside;
@@ -38,20 +36,21 @@ aside {
   justify-content: space-evenly;
   padding: 10px;
   background-color: rgba(29, 59, 106, 0.9); }
+  aside img {
+    width: 100px; }
 
 footer {
-  grid-area: footer;
   background-color: rgba(249, 223, 52, 0.9);
   font-size: 24px; }
+  footer a {
+    color: #173b6a; }
+    footer a:hover {
+      color: white; }
 
-aside img {
-  width: 100px; }
-
-footer a {
-  color: #173b6a; }
-
-footer a:hover {
-  color: white; }
+footer .redes {
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly; }
 
 .borderbottom {
   border-bottom: 10px solid white; }
@@ -62,18 +61,11 @@ footer a:hover {
 .centrado {
   text-align: center; }
 
-.redes {
-  padding: 5px;
-  display: flex;
-  justify-content: space-evenly; }
+ul {
+  list-style: none; }
 
-ul{
-  list-style: none;
-}
-
-  /* INICIO */
-
-.wrap {
+/* INICIO */
+main .wrap {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -82,16 +74,15 @@ ul{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
+  main .wrap .wrap-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+    width: 50%; }
 
-.wrap-texto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  background-color: aliceblue;
-  width: 50%; }
-
-section#resultados {
+main section#resultados {
   background: radial-gradient(circle farthest-corner at center center, rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.842)), url("../src/buonanottevspatronato.jpg");
   background-position: center;
   background-size: cover;
@@ -99,30 +90,25 @@ section#resultados {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-.cuadro {
-  height: 55%;
-  width: 60%;
-  background-color: white;
-  border: 0.5rem solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center; }
-
-.cuadro h3 {
-  padding-bottom: 5%; }
-
-.equipos {
-  display: flex;
-  justify-content: space-around; }
-
-.equipos span {
-  font-size: 5vw;
-  font-weight: 900; }
+  main section#resultados .cuadro {
+    height: 55%;
+    width: 60%;
+    background-color: white;
+    border: 0.5rem solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+    main section#resultados .cuadro h3 {
+      padding-bottom: 5%; }
+    main section#resultados .cuadro .equipos {
+      display: flex;
+      justify-content: space-around; }
+      main section#resultados .cuadro .equipos span {
+        font-size: 5vw;
+        font-weight: 900; }
 
 /* INICIO */
-
 /* Noticias */
 .fondonoticias {
   background-color: #83838390; }
@@ -134,57 +120,21 @@ section#resultados {
 .celdaamarilla {
   background-color: rgba(249, 223, 52, 0.568); }
 
-.aaa{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
 /* Socios */
-/* Tienda */
-/* Tienda */
 /* El Club */
-.ubicacion {
-  text-align: center;
-  position: relative;
-  left: 30%;
-  bottom: 30%; }
-
-.imagenelclub {
+section .imagenelclub {
   display: flex;
   text-align: center;
   justify-content: center; }
 
 /* El Club */
 /* Jugadores */
-.gradiente{
-  height: 30vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: linear-gradient(90deg, #173b6a9c 0%, #f9df3493 80%), url(../src/plantelcentral.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; 
-}
-
-.gradiente-texto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  background-color: rgba(240, 248, 255, 0.674);
-  width: 50%;
- }
-
- .cartashover .cartas{
+.cartashover .cartas {
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  transition: all 0.25s;
-}
+  transition: all 0.25s; }
+  .cartashover .cartas:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
 
-.cartashover .cartas:hover{
-  transform: translateY(-15px);
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
 /* Jugadores */
