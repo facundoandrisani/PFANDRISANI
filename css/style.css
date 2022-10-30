@@ -4,7 +4,9 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: 'Slabo 27px', serif; }
+  font-family: 'Slabo 27px', serif;
+  font-size: large; 
+}
 
 body {
   background-color: white;
@@ -32,16 +34,6 @@ header {
 
 nav {
   background-color: rgba(249, 223, 52, 0.9); }
-
-section#inicio {
-  grid-area: inicio;
-  height: 100vh; }
-
-section#resultados {
-  grid-area: resultados; }
-
-section#partidos {
-  grid-area: partidos; }
 
 aside {
   grid-area: aside;
@@ -77,6 +69,12 @@ footer a:hover {
   padding: 5px;
   display: flex;
   justify-content: space-evenly; }
+
+ul{
+  list-style: none;
+}
+
+  /* INICIO */
 
 .wrap {
   height: 100vh;
@@ -126,6 +124,8 @@ section#resultados {
   font-size: 5vw;
   font-weight: 900; }
 
+/* INICIO */
+
 /* Noticias */
 .fondonoticias {
   background-color: #83838390; }
@@ -137,6 +137,12 @@ section#resultados {
 .celdaamarilla {
   background-color: rgba(249, 223, 52, 0.568); }
 
+.aaa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 /* Socios */
 /* Tienda */
 /* Tienda */
@@ -154,47 +160,23 @@ section#resultados {
 
 /* El Club */
 /* Jugadores */
-.container2 {
-  background-color: #212f3c;
-  color: white;
+.gradiente{
+  height: 30vh;
   display: flex;
-  height: 80vh;
-  flex-wrap: wrap; }
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(90deg, #173b6a9c 0%, #f9df3493 80%), url(../src/plantelcentral.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
 
-.container__hijo1 {
-  height: 80vh;
-  width: 50%;
-  border-bottom: 10px solid rgba(249, 223, 52, 0.9);
-  background-image: url(../Final/src/broun.png);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex; }
-
-.container__hijo2 {
-  width: 50%;
-  height: 80vh;
+.gradiente-texto {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  border-bottom: 10px solid rgba(29, 59, 106, 0.9);
-  flex-wrap: wrap; }
-
-.container__hijo2 h2 {
-  color: white;
-  font-size: 2rem;
-  line-height: 0.5;
-  margin-bottom: 1.5rem;
-  margin-left: 10%;
-  margin-top: 10%; }
-
-.container__hijo2 h6 {
-  color: rgba(249, 223, 52, 0.776);
-  font-size: 1.5rem;
-  line-height: 0.5;
-  margin-bottom: 0.5rem;
-  margin-top: 0.7rem;
-  padding: 0.5rem; }
-
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(240, 248, 255, 0.674);
+  width: 50%;
+ }
 /* Jugadores */
