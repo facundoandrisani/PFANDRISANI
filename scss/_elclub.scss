@@ -1,7 +1,6 @@
 section{
     .imagenelclub {
-      display: flex;
-      text-align: $centrado;
-      justify-content: $centrado; 
+      @include flex-content($centrado);
+      text-align: $centrado; 
     }
   }

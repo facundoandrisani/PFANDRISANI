@@ -1,5 +1,5 @@
 .celdaazul {
-    background-color: $color-azul; }
+    background-color: map-get($color-azul, azul-1); }
   
   .celdaamarilla {
-    background-color: $color-amarillo; }
+    background-color: map-get($color-amarillo, amarillo-1); }

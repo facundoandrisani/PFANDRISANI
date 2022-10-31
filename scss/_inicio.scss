@@ -1,45 +1,40 @@
 main{
     .wrap{
-      height: 100vh;
-      display: flex;
+      @include flex-content($centrado);
       align-items: $centrado;
-      justify-content: $centrado;
-      background: linear-gradient(90deg, #173b6a9c 0%, #f9df3493 80%), url("../src/hinchada.jpg");
+      background: linear-gradient(90deg, map-get($color-azul, azul-5) 0%, map-get($color-amarillo, amarillo-3) 80%), url("../src/hinchada.jpg");
       background-size: cover;
       background-position: $centrado;
       background-repeat: no-repeat;
+      height: 100vh;
       .wrap-texto {
-        display: flex;
-        flex-direction: column;
-        justify-content: $centrado;
+        @include flex-content($centrado);
+        flex-direction: $columna;
         text-align: $centrado;
         background-color: aliceblue;
         width: 50%; 
       }    
     }
     section#resultados {
+      @include flex-content($centrado);
+      align-items: $centrado;
       background: radial-gradient(circle farthest-corner at center center, rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.842)), url("../src/buonanottevspatronato.jpg");
       background-position: $centrado;
       background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: $centrado;
-      align-items: $centrado; 
+      background-repeat: no-repeat;     
       .cuadro {
+        @include flex-content($centrado);
+        flex-direction: $columna;
+        text-align: $centrado;
         height: 55%;
         width: 60%;
-        background-color: white;
+        background-color: $blanco;
         border: 0.5rem solid black;
-        display: flex;
-        flex-direction: column;
-        justify-content: $centrado;
-        text-align: $centrado; 
         h3 {
           padding-bottom: 5%; 
         }
         .equipos {
-          display: flex;
-          justify-content: space-around; 
+          @include flex-content($espaciadoeve); 
           span {
             font-size: 5vw;
             font-weight: 900; 

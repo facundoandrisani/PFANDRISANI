@@ -1,4 +1,18 @@
-$color-azul: #173b6a9d ;
-$color-amarillo: rgba(249, 223, 52, 0.568);
+$color-azul:(
+    azul-1:#173b6a9d,
+    azul-2:#1d3b6a,
+    azul-3:rgba(29, 59, 106, 0.9),
+    azul-4:#173b6a,
+    azul-5:#173b6a9c,
+);
+$color-amarillo:(
+    amarillo-1:rgba(249, 223, 52, 0.568),
+    amarillo-2:rgba(249, 223, 52, 0.9),
+    amarillo-3:#f9df3493
+) ;
+$blanco: white;
 $tipografia-general: 'Slabo 27px', serif;
 $centrado: center;
+$espaciadoeve: space-evenly;
+$columna: column;
+$px-10: 10px;
