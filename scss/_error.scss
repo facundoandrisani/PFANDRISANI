@@ -1,0 +1,15 @@
+.error{
+    @include flex-content($centrado);
+    align-items: $centrado;
+    background: linear-gradient(90deg, #3131319c 0%, #1b1b1b93 80%), url("../src/error404.jpg");
+    background-size: cover;
+    background-position: $centrado;
+    background-repeat: no-repeat;
+    height: 100vh;
+    .errormensaje{
+        @include flex-content($centrado);
+        flex-direction: $columna;
+        text-align: $centrado;
+        width: 50%;
+    }
+}
