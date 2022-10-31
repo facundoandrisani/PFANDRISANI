@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: $px-10*0;
+    padding: $px-10*0;
+    font-family: $tipografia-general;
+    font-size: large; 
+  }
+  
+  body {
+    background-color: $blanco;
+    width: 100%; }
+  
+  h2, h3, h4 {
+    color: map-get($color-azul, azul-2);
+    padding: $px-10; }
+  
+  .colorgris {
+    background-color: #f7f9f9; }
+  
+  .colorverde {
+    background-color: rgba(30, 132, 73, 0.678); }
+  
+  .colorclaro {
+    background-color: map-get($color-amarillo, amarillo-1); }
+  
+  header {
+    background-color: map-get($color-azul, azul-3);
+  } 
+  
+  nav{
+    a:hover{
+        text-decoration: underline;
+    }
+  }
+    
+  
+  aside {
+    @include flex-content($espaciadoeve);
+    padding: $px-10;
+    background-color: map-get($color-azul, azul-3);
+    img {
+      width: $px-10*10;
+    }
+  }
+  
+  footer{
+    background-color: map-get($color-amarillo, amarillo-2);
+    font-size: 24px;
+    a{
+      color: #173b6a;
+      &:hover{
+        color: $blanco;
+      }
+    }
+  }
+  footer{
+    .redes {
+      @include flex-content($espaciadoeve);
+      padding: $px-10/2; 
+    }
+  }
+  .borderbottom {
+    border-bottom: $px-10 solid $blanco; }
+  
+  .bordertop {
+    border-top: $px-10 solid $blanco; }
+  
+  .centrado {
+    text-align: $centrado; }
+  
+  ul{
+    list-style: none;
+  }
+  

@@ -1,0 +1,29 @@
+.gradiente{
+    @include flex-content($centrado);
+    align-items: $centrado;
+    background-image: linear-gradient(90deg, map-get($color-azul, azul-5) 0%, map-get($color-amarillo, amarillo-3) 80%), url(../src/plantelcentral.jpg);
+    background-size: cover;
+    background-position: $centrado;
+    background-repeat: no-repeat;
+    height: 30vh;
+    .gradiente-texto {
+      @include flex-content($centrado);
+      flex-direction: $columna;
+      text-align: $centrado;
+      background-color: rgba(240, 248, 255, 0.674);
+      width: 50%;
+     }
+  }
+
+  .cartashover{
+    .cartas{
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      transition: all 0.25s;
+      &:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);     
+      }    
+    }
+  }
+  

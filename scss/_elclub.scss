@@ -1,0 +1,6 @@
+section{
+    .imagenelclub {
+      @include flex-content($centrado);
+      text-align: $centrado; 
+    }
+  }
