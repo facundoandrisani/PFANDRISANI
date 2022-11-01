@@ -102,9 +102,10 @@ main section#resultados {
     main section#resultados .cuadro .equipos {
       display: flex;
       justify-content: space-evenly; }
-      main section#resultados .cuadro .equipos span {
-        font-size: 5vh;
-        font-weight: 900; }
+      @media (min-width: 768px) {
+        main section#resultados .cuadro .equipos span {
+          font-size: 5vh;
+          font-weight: 900; } }
 
 .fondonoticias {
   background-color: #83838390; }
