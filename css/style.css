@@ -121,6 +121,14 @@ section .imagenelclub {
   justify-content: center;
   text-align: center; }
 
+@media (max-width: 768px) {
+  section .imagenelclub {
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+    section .imagenelclub img {
+      width: 300px; } }
+
 .gradiente {
   display: flex;
   justify-content: center;

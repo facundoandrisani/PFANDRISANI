@@ -1,6 +1,18 @@
 section{
-    .imagenelclub {
+  .imagenelclub {
       @include flex-content($centrado);
       text-align: $centrado; 
-    }
   }
+}
+
+@media (max-width: 768px){
+  section{
+    .imagenelclub {
+        @include flex-content($centrado);
+        text-align: $centrado;
+        img {
+          width: 300px;
+        } 
+    }
+  }  
+} 
