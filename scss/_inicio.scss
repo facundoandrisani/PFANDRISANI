@@ -36,7 +36,7 @@ main{
         .equipos {
           @include flex-content($espaciadoeve); 
           span {
-            font-size: 5vw;
+            font-size: 5vh;
             font-weight: 900; 
           }
         }

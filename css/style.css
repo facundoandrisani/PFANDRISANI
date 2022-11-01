@@ -103,7 +103,7 @@ main section#resultados {
       display: flex;
       justify-content: space-evenly; }
       main section#resultados .cuadro .equipos span {
-        font-size: 5vw;
+        font-size: 5vh;
         font-weight: 900; }
 
 .fondonoticias {
