@@ -15,33 +15,34 @@ main{
         width: 50%; 
       }    
     }
-    section#resultados {
+    .resultado1{
       @include flex-content($centrado);
       align-items: $centrado;
-      background: radial-gradient(circle farthest-corner at center center, rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.842)), url("../src/buonanottevspatronato.jpg");
-      background-position: $centrado;
+      background: linear-gradient(90deg, map-get($color-negro, negro-2) 0%, map-get($color-negro, negro-3) 80%), url("../src/buonanottevspatronato.jpg");
       background-size: cover;
-      background-repeat: no-repeat;     
-      .cuadro {
+      background-position: $centrado;
+      background-repeat: no-repeat;
+      height: 50vh;
+      .resultado2 {
         @include flex-content($centrado);
         flex-direction: $columna;
         text-align: $centrado;
-        height: 55%;
-        width: 60%;
-        background-color: $blanco;
-        border: 0.5rem solid black;
-        h3 {
-          padding-bottom: 5%; 
+        background-color: rgba(255, 255, 255, 0.735);
+        width: 50%; 
+        border: 0.1rem solid map-get($color-negro, negro-1);
+        .resultado3{
+          @include flex-content($espaciadoeve);
         }
-        .equipos {
-          @include flex-content($espaciadoeve); 
-          @media (min-width: 768px){
-            span {
-              font-size: 5vh;
-              font-weight: 900; 
-            }
+        @media (max-width: $celular){
+          img{
+            width: $px-10*5;
           }
         }
-      }
-    }
-  }
+        @media (min-width: $celular){
+          span{
+            font-size: 5vh;
+          }
+        }
+      }    
+    } 
+}

@@ -5,13 +5,13 @@ section{
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: $celular){
   section{
     .imagenelclub {
         @include flex-content($centrado);
         text-align: $centrado;
         img {
-          width: 300px;
+          width: $px-10*30;
         } 
     }
   }  

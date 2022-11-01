@@ -10,9 +10,15 @@ $color-amarillo:(
     amarillo-2:rgba(249, 223, 52, 0.9),
     amarillo-3:#f9df3493
 ) ;
+$color-negro:(
+    negro-1:black,
+    negro-2:#3131319c,
+    negro-3:#1b1b1b93
+) ;
 $blanco: white;
 $tipografia-general: 'Slabo 27px', serif;
 $centrado: center;
 $espaciadoeve: space-evenly;
 $columna: column;
 $px-10: 10px;
+$celular: 768px;
